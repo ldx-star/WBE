@@ -121,8 +121,8 @@
     <input type="checkbox">足球
     <input type="checkbox">乒乓球
 
-    <input type="button" value="提交">
-    <input type="submit" value="提交">
+    <input type="button" value="提交"> 普通按钮
+    <input type="submit" value="提交"> 提交表单
 ```
 
 ![image-20240402092108766](../../../../../../home/ldx/.config/Typora/typora-user-images/image-20240402092108766.png)
