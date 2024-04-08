@@ -28,6 +28,7 @@
             width: 100px;
             border: 1px solid red;
         }
+行内标签：不能设置高度和边距
 ```
 
 ![image-20240403155909988](/home/ldx/.config/Typora/typora-user-images/image-20240403155909988.png)
@@ -160,3 +161,4 @@
 ```
 
 ![image-20240403165800233](/home/ldx/.config/Typora/typora-user-images/image-20240403165800233.png)
+
