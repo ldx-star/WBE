@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <ul id="city"></ul>
+    <script type="text/javascript">
+      var cityList = ["北京", "上海", "深圳"];
+      for (var idx in cityList) {
+        var text = cityList[idx];
+
+        // 创建 <li></li>
+        var tag = document.createElement("li");
+        // 在li标签中写入内容
+        tag.innerText = text;
+
+        // 添加id = city 那个标签的里面。(DOM)
+        var parentTag = document.getElementById("city");
+        parentTag.appendChild(tag);
+      }
+    </script>
+  </body>
+</html>
